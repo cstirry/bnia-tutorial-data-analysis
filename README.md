@@ -7,28 +7,22 @@ own repository for your own BNIA data exploration and creating a python environm
 
 ## Get repository and create a private forked repository for own exploration
 
-Pull this repository to your local machine:
+* Create a private repo in your github : YOUR_REPO.
 
-```
-git clone URL
-```
-
-* Login to your github and create a private repo : YOUR_REPO.
-
-* Get this repo <br> ``git clone --bare URL``
+* Pull this repo to your local machine <br> 
+```git clone --bare https://github.com/cstirry/bnia-arcgis-api.git```
 
 * Mirror this to your private repo <br>
 ```
-cd {name}.git
-git push --mirror YOUR_REPO
+cd bnia-arcgis-api.git
+git push --mirror URL/YOUR_REPO
 ```
 
 * You can now delete the initial directory cloned two steps ago.
 
-* Clone your private repo on your local system<br> ``git clone YOUR_REPO``
-
-* Next <br>
+* Clone your private repo on your local system <br> 
 ```
+git clone URL/YOUR_REPO
 cd YOUR_REPO
 git remote add upstream URL
 ```
@@ -49,13 +43,11 @@ Environments are used to keep different python versions and packages isolated fr
 Make sure you have Conda downloaded [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and installed locally. Conda is an open source package and environment management system.
 
 To create a new environment run:
-
 ```
 conda create --name your_env python=3.7 -y
 ```
 
 Once it's created you can activate it by running:
-
 ```
 conda activate your_env
 ```
@@ -72,12 +64,11 @@ Python packages used in the initial exploration. You may want to update the requ
 * **arcgis** - the arcgis python api package
 * **numpy** - a package for scientific computing
 * **pandas** - a package for data analysis
-* **altairb** - a plotting library
+* **altair** - a plotting library
 
 You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt).
 
 Within your directory, activate your environment (`conda activate your_env`), then run:
-
 ```
 pip install -r requirements.txt
 ```
@@ -87,7 +78,6 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 ## Jupyter
 
 Assuming, you have installed jupyter. To open it up you can run in your terminal:
-
 ```
 jupyter notebook
 ```
