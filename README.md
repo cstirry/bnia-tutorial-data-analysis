@@ -1,10 +1,9 @@
 # Explore BNIA data using the ArcGIS API in a Jupyter Notebook
 
-The included notebook explores [BNIA data](https://bniajfi.org) with various visualization libraries.
+The notebook accesses [BNIA data](https://bniajfi.org) through the ArcGIS Rest API and creates various visualizations.
 
 If you are interested in using this setup for your own analysis, the following instructions walk through forking your
-own repository for your own BNIA data exploration in a notebook,
-and how to create a python environment with the necessary packages.
+own repository for your own BNIA data exploration and creating a python environment with the necessary packages.
 
 ## Get repository and create a private forked repository for own exploration
 
@@ -46,7 +45,7 @@ If you do not specify the remote, it will default to the origin (your repo)
 
 ## Environment
 
-Environments are used to keep different python versions and packages isolated from each other, generally each project/application will have an independent python environment. For example, we will be using Python 3.7 and packages like numpy, networkx etc, and we want them to be isolated from any other python projects you might have. 
+Environments are used to keep different python versions and packages isolated from each other, generally each project/application will have an independent python environment <br>
 Make sure you have Conda downloaded [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and installed locally. Conda is an open source package and environment management system.
 
 To create a new environment run:
@@ -73,7 +72,7 @@ Python packages used in the initial exploration. You may want to update the requ
 * **arcgis** - the arcgis python api package
 * **numpy** - a package for scientific computing
 * **pandas** - a package for data analysis
-* **matplotlib** - a plotting library
+* **altairb** - a plotting library
 
 You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt).
 
@@ -85,8 +84,6 @@ pip install -r requirements.txt
 
 Once installed, you can run `pip freeze` to see the list of all of the packages installed in the environment.
 
-The ArcGIS Python API has various sample notebooks that could be useful to [explore](https://github.com/Esri/arcgis-python-api)
-
 ## Jupyter
 
 Assuming, you have installed jupyter. To open it up you can run in your terminal:
@@ -97,3 +94,5 @@ jupyter notebook
 
 It will start a python kernel which you can access via [https://localhost:8888](https://localhost:8888/) in your browser,
 where you can open `notebook.ipynb`.
+
+The ArcGIS Python API has various sample notebooks that could be useful to [explore](https://github.com/Esri/arcgis-python-api).
