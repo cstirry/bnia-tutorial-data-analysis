@@ -68,7 +68,7 @@ Python packages used in the initial exploration. You may want to update the requ
 
 You can see the complete list of packages and required versions in [./requirements.txt](./requirements.txt).
 
-Within your directory, activate your environment (`conda activate your_env`), then run:
+Within your directory, activate your environment, then run:
 ```
 pip install -r requirements.txt
 ```
@@ -77,7 +77,7 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 
 ## Jupyter
 
-Assuming, you have installed jupyter. To open it up you can run in your terminal:
+Assuming, you have installed jupyter, to open it up you can run in your terminal:
 ```
 jupyter notebook
 ```
