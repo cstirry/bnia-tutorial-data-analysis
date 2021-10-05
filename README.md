@@ -77,7 +77,7 @@ Once installed, you can run `pip freeze` to see the list of all of the packages 
 
 ## Jupyter
 
-Assuming, you have installed jupyter, to open it up you can run in your terminal:
+Assuming you have installed jupyter, to open it up you can run in your terminal:
 ```
 jupyter notebook
 ```
