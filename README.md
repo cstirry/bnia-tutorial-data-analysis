@@ -1,9 +1,9 @@
-# Explore BNIA data using the ArcGIS API in a Jupyter Notebook
+# Tutorial for BNIA data 
 
-The notebook accesses [BNIA data](https://bniajfi.org) through the ArcGIS Rest API and creates various visualizations.
+Tutorial for data researchers to ingest, process, and visualize [BNIA data](https://bniajfi.org) data in a Juypter Notebook with Python.
 
 If you are interested in using this setup for your own analysis, the following instructions walk through forking your
-own repository for your own BNIA data exploration and creating a python environment with the necessary packages.
+own repository for your own BNIA data exploration and creating a Python environment with the necessary packages.
 
 ## Get repository and create a private forked repository for own exploration
 
